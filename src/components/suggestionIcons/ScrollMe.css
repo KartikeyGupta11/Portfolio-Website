@@ -1,0 +1,14 @@
+.suggestion-icon {
+    /* position: fixed; */
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s, opacity 0.3s;
+    font-size: 24px;
+}
